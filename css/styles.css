@@ -32,7 +32,7 @@ a{
         text-transform: uppercase;
         color: #2e2f42;
 }
-.fast-travel a{
+.fast-travel {
     font-weight: 500;
         font-size: 16px;
     
@@ -52,6 +52,10 @@ a{
         letter-spacing: 0.02em;
         color: #434455;
 }
+.link:focus,.link:hover{
+    color:#404bbf;
+}
+
 .title-section{
     background: #2e2f42;
 }
