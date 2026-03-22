@@ -5,9 +5,6 @@ body{
 }
 address{font-style: normal
 }
-address:focus, address:hover{
-    color: #2e2f42;
-}
 ul{list-style-type: none;}
 
 a{
@@ -45,7 +42,7 @@ a{
         color: #2e2f42;
 }
 .fast-travel a:focus, .fast-travel a:hover{
-    color: #2e2f42;
+    color: #404bbf;
 }
 .link{
         font-size: 16px;
@@ -83,7 +80,7 @@ a{
             cursor: pointer
 }
 .title-button:hover, .title-button:focus{
-    background-color: #4d5ae5;
+    background-color: #404bbf;
 }
 .our-team{
     background: #f4f4fd;
