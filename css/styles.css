@@ -3,8 +3,11 @@ body{
     color: #2e2f42;
     background-color: #fff;
 }
-address{font-style: normal}
-
+address{font-style: normal
+}
+address:focus, address:hover{
+    color: #2e2f42;
+}
 ul{list-style-type: none;}
 
 a{
@@ -32,7 +35,7 @@ a{
         text-transform: uppercase;
         color: #2e2f42;
 }
-a{
+.fast-travel a{
     font-weight: 500;
         font-size: 16px;
     
@@ -40,6 +43,9 @@ a{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+}
+.fast-travel a:focus, .fast-travel a:hover{
+    color: #2e2f42;
 }
 .link{
         font-size: 16px;
@@ -74,6 +80,10 @@ a{
             line-height: 1.5;
             letter-spacing: 0.04em;
             color: #fff;
+            cursor: pointer
+}
+.title-button:hover, .title-button:focus{
+    background-color: #4d5ae5;
 }
 .our-team{
     background: #f4f4fd;
